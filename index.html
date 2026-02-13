@@ -6,7 +6,6 @@
 <title>NewsGrid by GeoNerd</title>
 
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -26,20 +25,17 @@
 
 <!-- TICKER -->
 <div class="news-ticker-pro">
-
 <div class="ticker-live">
 <span class="live-dot"></span> LIVE
 </div>
-
 <div class="ticker-pro-wrap">
 <div class="ticker-pro-move">
-🇧🇩 Bangladesh Election Results — Live seat updates • Party trends • Exit data • Click Bangladesh button above for dashboard →
+🇧🇩 Bangladesh Election Results — Live seat updates • Party trends • Exit data • Click Bangladesh button above →
+</div>
 </div>
 </div>
 
-</div>
-
-<!-- MAIN APP -->
+<!-- APP -->
 <div id="app">
 
 <div id="category-filter">
@@ -49,13 +45,19 @@
 </div>
 
 <div id="gallery" class="masonry"></div>
-<div id="loader" class="loader">Loading...</div>
+
+<div id="loader" class="fun-loader">
+<div class="trump"></div>
+<p>Loading news...</p>
+</div>
 
 </div>
 
 <!-- MODAL -->
 <div id="modal" class="modal">
 <span id="close">&times;</span>
+<span id="prev" class="nav-btn prev">&#10094;</span>
+<span id="next" class="nav-btn next">&#10095;</span>
 <img id="modal-img" class="modal-content">
 </div>
 
