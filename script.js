@@ -93,7 +93,7 @@ const headlines = [
 "🔴 BREAKING: US embassy in Riyadh hit.",
 "⚠️ Tehran closes Strait of Hormuz",
 "🌍 Iranian supreme leader Ayatollah Ali Khamenei assassinated.",
- "Fuel tank at Oman’s Duqm port hit in drone attack"
+"Fuel tank at Oman’s Duqm port hit in drone attack",
 "📰 Stay tuned to NewsGrid for latest real-time updates on the Israel–Iran situation."
 ];
 
